@@ -1,0 +1,60 @@
+.out {
+    width: 700px;
+    height: 900px;
+    margin: 0 auto;
+    display: block;
+    position: relative; 
+}
+
+#image-class {
+    width: 700px;
+    height: 900px;
+    margin: 0 auto;
+    display: block;
+    filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#canvas {
+    width: 700px;
+    height: 900px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    display: block;
+    z-index: 200;
+    position: absolute;
+}
+#resetButton {
+    left: 150px;
+    bottom: 200px;
+    background-color: #058;
+}
+
+#resetButton:hover {
+    background-color: #047;
+}
+
+#showButton {
+    right: 150px;
+    bottom: 200px;
+    background-color: #085;
+}
+#showButton:hover {
+    background-color: #074;
+}
